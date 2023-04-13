@@ -1,3 +1,4 @@
+"""
 from django.urls import path
 import myapp.views
 urlpatterns = [
@@ -8,3 +9,4 @@ urlpatterns = [
     path('<str:username>/', myapp.views.profile, name='profile'),
     path('<str:username>/change_password/', myapp.views.change_password, name='change_password'),
     ]
+"""
