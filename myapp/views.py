@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 
 from django.shortcuts import render
 
@@ -26,4 +24,4 @@ def blog_detail(request, name=''):
 
 def create(request):
     return render(request, 'create_blog.html')
->>>>>>> f671637 (HW2)
+
